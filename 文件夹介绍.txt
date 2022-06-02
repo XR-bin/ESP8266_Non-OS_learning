@@ -1,0 +1,58 @@
+ESP8266_NONOS_SDK-2.2.0
+	官方提供的初始项目案例代码，我会将其修改一下变成自己的初始代码0_NONOS_SDK_Template
+	注意：这里我们用的官方提供的初始项目案例代码是  无操作系统  的  2.20的版本包
+
+0_NONOS_SDK_Template
+	自己根据官方初始项目案例代码改造的初始代码项目，下面的所有历程都是根据这个初始环境编写的
+
+1_UART_temp
+	ESP8266的串口使用
+
+2_MakeFile
+	认识MakeFile，学习如何修改MakeFile文件，这个实验室为了把uart.c文件放在我们自己建的文件中
+
+3_DOG_temp
+	认识官方提供的看门狗，这个SDK的看门狗是一直开着的，运行需要占用长时间的代码得进行喂狗操作
+
+4_delay_temp
+	尝试使用官方代码库提供的延时函数
+
+5_GPIO_OutPut_temp
+	学习如何将某个GPIO配置为输出模式
+
+6_GPIO_InPut_temp
+	学习如何将某个GPIO配置为输入模式
+
+7_GPIO_EXTI_temp
+	学习配置外部中断
+
+8_OS_Timer_temp
+	学习软件定时器的使用
+	【注意】软件定时器并不是真的硬件上的定时器，它是通过软件实现的，定时器函数是在任务中执行的，
+	             因为任务会被中断打断或高级优先级任务延时，所以软件定时不能保证精确
+
+9_HW_Timer_temp
+	学习使用硬件定时器
+
+10_Task_temp
+	学习创建任务
+
+11_Flash_temp
+	学习读写外部Flash
+
+12_AP_Mode
+	将ESP8266设置为AP模式
+
+13_AP_Mode_UDP_Server
+	在AP模式下，将ESP8266作为Server(服务端)，并建立UDP协议网络通信
+
+14_AP_Mode_UDP_Client
+	在AP模式下，将ESP8266作为Client(客户端)，并建立UDP协议网络通信
+
+15_AP_Mode_TCP_Server
+	在AP模式下，将ESP8266作为Server(服务端)，并建立TCP协议网络通信
+
+16_AP_Mode_TCP_Client
+	在AP模式下，将ESP8266作为Client(客户端)，并建立TCP协议网络通信
+
+
