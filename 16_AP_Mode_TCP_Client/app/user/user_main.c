@@ -187,7 +187,7 @@ void ICACHE_FLASH_ATTR ESP8266_TCP_Init(void)
 	ST_NetCon.proto.tcp->local_port  = 8266;		// 设置本地端口
 
 	ST_NetCon.proto.tcp->remote_port = 8888;	    // 设置目标端口
-	os_memcpy(ST_NetCon.proto.udp->remote_ip,remote_ip,4);	//设置目标IP地址
+	os_memcpy(ST_NetCon.proto.tcp->remote_ip,remote_ip,4);	//设置目标IP地址
 
 	//注册回调函数
 	espconn_regist_connectcb(&ST_NetCon, ESP8266_WIFI_Connectcb);	// 注册TCP连接成功的回调函数

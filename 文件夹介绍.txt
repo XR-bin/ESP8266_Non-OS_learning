@@ -55,4 +55,20 @@ ESP8266_NONOS_SDK-2.2.0
 16_AP_Mode_TCP_Client
 	在AP模式下，将ESP8266作为Client(客户端)，并建立TCP协议网络通信
 
+17_STA_Mode
+	将ESP8266设置为STA模式
+
+18_STA_Mode_UDP_Server
+	在STA模式下，将ESP8266作为Server(服务端)，并建立UDP协议网络通信
+
+19_STA_Mode_UDP_Client
+	在STA模式下，将ESP8266作为Client(客户端)，并建立UDP协议网络通信
+
+20_STA_Mode_TCP_Server
+	在STA模式下，将ESP8266作为Server(服务端)，并建立TCP协议网络通信
+
+21_STAMode_TCP_Client
+	在STA模式下，将ESP8266作为Client(客户端)，并建立TCP协议网络通信
+
+
 

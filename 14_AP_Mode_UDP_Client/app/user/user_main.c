@@ -177,6 +177,9 @@ void ICACHE_FLASH_ATTR ESP8266_UDP_Init(void)
 
 	//正式初始化UDP通信
 	espconn_create(&ST_NetCon);	// 初始化UDP通信
+
+	// 主动向Server发起通信
+	espconn_send(&ST_NetCon,"Hello,I am ESP8266",os_strlen("Hello,I am ESP8266"));
 }
 
 // 注：OS_Time1必须定义全局变量，因为ESP8266的内核还要使用
