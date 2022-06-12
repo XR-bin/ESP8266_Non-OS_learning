@@ -70,5 +70,22 @@ ESP8266_NONOS_SDK-2.2.0
 21_STAMode_TCP_Client
 	在STA模式下，将ESP8266作为Client(客户端)，并建立TCP协议网络通信
 
+22_NDS
+	通过NDS进行域名解析，即域名解析为IP,
+
+23_HTTP
+	通过HTTP协议获取网站网页信息
+
+24_SNTP
+	通过SNTP协议获取网络实时时间
+
+25_JSON_API
+	通过JSON的API进行JSON树的生成和解析
+
+26_JSON_C_FuncLib
+	通过C库提供的代码进行JSON树的生成和解析(推荐使用C库来操作JSON)
+
+
+
 
 
